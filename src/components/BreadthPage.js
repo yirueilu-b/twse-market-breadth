@@ -11,6 +11,7 @@ import Typography from '@material-ui/core/Typography';
 import '@hassanmojab/react-modern-calendar-datepicker/lib/DatePicker.css';
 import DatePicker from '@hassanmojab/react-modern-calendar-datepicker';
 
+const BASE_URL = "https://yirueilu.pythonanywhere.com/"
 const TECH_KEYS = ['電子零組件業', '電機機械', '電器電纜', '電腦及週邊設備業', '半導體業', '其他電子業', '通信網路業', '光電業', '電子通路業', '資訊服務業',];
 const TRAD_KEYS = ['水泥工業', '食品工業', '塑膠工業', '建材營造業', '汽車工業', '其他業', '紡織纖維', '貿易百貨業', '生技醫療業', '化學工業', '玻璃陶瓷', '造紙工業', '鋼鐵工業', '橡膠工業', '航運業', '油電燃氣業', '觀光事業', '金融保險業'];
 const ALL_KEYS = ['大盤',];
@@ -108,7 +109,7 @@ function BreadthPage(props) {
     React.useEffect(() => {
         setChecked((prev) => !prev);
         // setChecked((prev) => !prev);
-        fetch("http://yirueilu.pythonanywhere.com/" + props.dateString)
+        fetch(BASE_URL + props.dateString)
             .then(function (response) {
                 console.log(response);
                 if (response.status === 200) {
@@ -156,7 +157,7 @@ function BreadthPage(props) {
                 }
             ).then(() => setChecked((prev) => !prev));
 
-        fetch("http://yirueilu.pythonanywhere.com/index-info-" + props.dateString)
+        fetch(BASE_URL + "index-info-" + props.dateString)
             .then(function (response) {
                 if (response.status === 200) {
                     return response.json();
@@ -172,7 +173,7 @@ function BreadthPage(props) {
                     setError(error);
                 }
             );
-        fetch("http://yirueilu.pythonanywhere.com/index-month")
+        fetch(BASE_URL + "index-month")
             .then(function (response) {
                 if (response.status === 200) {
                     return response.json();
