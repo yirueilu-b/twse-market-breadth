@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/twse-market-breadth/static/css/main.4123d008.chunk.css",
-    "main.js": "/twse-market-breadth/static/js/main.c21487d3.chunk.js",
-    "main.js.map": "/twse-market-breadth/static/js/main.c21487d3.chunk.js.map",
+    "main.js": "/twse-market-breadth/static/js/main.f973b761.chunk.js",
+    "main.js.map": "/twse-market-breadth/static/js/main.f973b761.chunk.js.map",
     "runtime-main.js": "/twse-market-breadth/static/js/runtime-main.b8fc562a.js",
     "runtime-main.js.map": "/twse-market-breadth/static/js/runtime-main.b8fc562a.js.map",
     "static/css/2.5527b0b9.chunk.css": "/twse-market-breadth/static/css/2.5527b0b9.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.5527b0b9.chunk.css",
     "static/js/2.49855c9c.chunk.js",
     "static/css/main.4123d008.chunk.css",
-    "static/js/main.c21487d3.chunk.js"
+    "static/js/main.f973b761.chunk.js"
   ]
 }
