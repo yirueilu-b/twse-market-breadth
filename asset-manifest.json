@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/twse-market-breadth/static/css/main.4123d008.chunk.css",
+    "main.js": "/twse-market-breadth/static/js/main.c21487d3.chunk.js",
+    "main.js.map": "/twse-market-breadth/static/js/main.c21487d3.chunk.js.map",
+    "runtime-main.js": "/twse-market-breadth/static/js/runtime-main.b8fc562a.js",
+    "runtime-main.js.map": "/twse-market-breadth/static/js/runtime-main.b8fc562a.js.map",
+    "static/css/2.5527b0b9.chunk.css": "/twse-market-breadth/static/css/2.5527b0b9.chunk.css",
+    "static/js/2.49855c9c.chunk.js": "/twse-market-breadth/static/js/2.49855c9c.chunk.js",
+    "static/js/2.49855c9c.chunk.js.map": "/twse-market-breadth/static/js/2.49855c9c.chunk.js.map",
+    "static/js/3.f544ff32.chunk.js": "/twse-market-breadth/static/js/3.f544ff32.chunk.js",
+    "static/js/3.f544ff32.chunk.js.map": "/twse-market-breadth/static/js/3.f544ff32.chunk.js.map",
+    "index.html": "/twse-market-breadth/index.html",
+    "static/css/2.5527b0b9.chunk.css.map": "/twse-market-breadth/static/css/2.5527b0b9.chunk.css.map",
+    "static/css/main.4123d008.chunk.css.map": "/twse-market-breadth/static/css/main.4123d008.chunk.css.map",
+    "static/js/2.49855c9c.chunk.js.LICENSE.txt": "/twse-market-breadth/static/js/2.49855c9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8fc562a.js",
+    "static/css/2.5527b0b9.chunk.css",
+    "static/js/2.49855c9c.chunk.js",
+    "static/css/main.4123d008.chunk.css",
+    "static/js/main.c21487d3.chunk.js"
+  ]
+}
