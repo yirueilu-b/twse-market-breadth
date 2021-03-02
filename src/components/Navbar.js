@@ -28,11 +28,16 @@ const minimumDate = {
     "day": 1,
 };
 let today = new Date();
+let minute = today.getMinutes();
+let hour = today.getHours() * 100;
+let time = hour + minute
+
 today = {
     "year": today.getFullYear(),
     "month": today.getMonth() + 1,
-    "day": today.getDate() - 1,
+    "day": time >= 1730 ? today.getDate() - 1 : today.getDate() - 1,
 };
+
 const useStyles = makeStyles((theme) => ({
     toolbar: theme.mixins.toolbar,
     root: {
